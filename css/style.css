@@ -57,7 +57,18 @@
   display: flex;
   gap: 10px;
     }
-    nav{
+    nav ul li a{
+        display: flex;
+        text-decoration: none;
+        font-size: 2rem;
+        background-color: #31440c;
+        color: yellowgreen;
+        border: 1vw solid #9acd32;
+        width: 38vw;
+        height: 8vh;
+        margin-top: 1vh;
+        justify-content: center;
+        align-items: center;
         display: none;
     }
 }
