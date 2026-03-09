@@ -1,1 +1,51 @@
-/* header */
+/* tellie*/
+@media(max-width:576px) {
+    main h1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    main form {
+        padding: 30px;
+
+    }
+
+    main {
+        background-color: #F5F3E7;
+
+    }
+
+    .logoMerk img {
+        width: 49px;
+    }
+
+    h1,
+    header span {
+        font-family: 'playfair display', sans-serif;
+        font-style: italic;
+        font-weight: 600;
+    }
+
+    .socialLogo img {
+        width: 20px;
+    }
+
+
+    footer {
+        background-color: #119822;
+
+    }
+
+    footer p {
+        color: white;
+    }
+
+
+}
+
+
+/* tablet*/
+@media(min-width:576px) and (max-width:991px) {}
+
+/* laptop*/
+@media(min-width:992px) and (max-width:1199px) {}
