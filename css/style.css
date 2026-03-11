@@ -3,13 +3,12 @@
     margin: 0;
 }
 
-/*telephone-landingspagina*/
-@media (max-width: 576px) {
-    html {
+
+ html {
         background-color: #F5F3E7;
     }
     .logo-img {
-        max-width: 10%;
+        max-width: 5%;
         height: auto;
         margin: 10px;
     }
@@ -53,9 +52,9 @@
         margin-right: 25px;
     }
     .icons{
-          margin-left: auto;
-  display: flex;
-  gap: 10px;
+        margin-left: auto;
+        display: flex;
+        gap: 10px;
     }
     nav ul li a{
         display: flex;
@@ -70,5 +69,16 @@
         justify-content: center;
         align-items: center;
         display: none;
+        
     }
+
+
+
+
+/*telephone-landingspagina*/
+@media (max-width: 576px) {
+     .logo-img {
+        max-width: 10%;
+    }
+   
 }
