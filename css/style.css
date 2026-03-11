@@ -15,8 +15,26 @@
 
     }
 
+    main input {
+        align-items: center;
+        display: flex;
+    }
+
+    hr {
+        color: #1B8728;
+        ;
+    }
+
     .logoMerk img {
         width: 49px;
+    }
+
+    .logoFooter img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 49px;
+        margin-left: 150px;
     }
 
     h1,
@@ -24,6 +42,21 @@
         font-family: 'playfair display', sans-serif;
         font-style: italic;
         font-weight: 600;
+    }
+
+    nav ul li a {
+        display: flex;
+        text-decoration: none;
+        font-size: 2rem;
+        background-color: #31440c;
+        color: yellowgreen;
+        border: 1vw solid #9acd32;
+        width: 38vw;
+        height: 8vh;
+        margin-top: 1vh;
+        justify-content: center;
+        align-items: center;
+        display: none;
     }
 
     .socialLogo img {
