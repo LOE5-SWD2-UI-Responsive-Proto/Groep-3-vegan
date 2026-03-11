@@ -41,7 +41,7 @@
     li{
         margin-bottom: 5px;
     }
-    .material-icons, .material-symbols-outlined{
+    .material-symbols-outlined{
         color: #f1f1f1;
        
         
@@ -71,6 +71,9 @@
         display: none;
         
     }
+    .fotoGallerie {
+        position: relative;
+    }
     .foto1 {
         max-width: 100%;
         border-radius: 8px;
@@ -88,11 +91,20 @@
 
 
 
-
 /*telephone-landingspagina*/
 @media (max-width: 576px) {
      .logo-img {
         max-width: 10%;
     }
    
+}
+/*tablet*/
+@media (min-width: 576px) and (max-width: 991px) {
+  
+
+}
+/*laptops*/
+@media (min-width: 992px) and (max-width: 1199px)  {
+
+
 }
