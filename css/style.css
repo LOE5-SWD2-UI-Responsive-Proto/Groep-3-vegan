@@ -4,7 +4,7 @@
 }
 
 
- html {
+ body {
         background-color: #F5F3E7;
     }
     .logo-img {
@@ -70,6 +70,20 @@
         align-items: center;
         display: none;
         
+    }
+    .foto1 {
+        max-width: 100%;
+        border-radius: 8px;
+        margin-top: 2vh;
+        height: auto;
+
+    }
+    .foto2, .foto3, .foto4 {
+        display: none;
+        max-width: 100%;
+        border-radius: 8px;
+        margin-top: 2vh;
+        height: auto;
     }
 
 
