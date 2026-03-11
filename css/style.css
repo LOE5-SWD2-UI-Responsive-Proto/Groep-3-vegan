@@ -1,173 +1,174 @@
-/* tellie*/
-@media(max-width:576px) {
-    main h1 {
-        display: flex;
-        justify-content: center;
-    }
+body {
+    background-color: #F5F3E7;
+}
 
-    main form {
-        padding: 30px;
+main h1 {
+    display: flex;
+    justify-content: center;
+}
 
-    }
-
-    main {
-        background-color: #F5F3E7;
-
-    }
-
-    main input {
-        align-items: center;
-        display: flex;
-    }
-
-    hr {
-        color: #1B8728;
-        ;
-    }
-
-    .logoMerk img {
-        width: 49px;
-    }
-
-    .logoFooter img {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 49px;
-        margin-left: 150px;
-    }
-
-    h1,
-    header span {
-        font-family: 'playfair display', sans-serif;
-        font-style: italic;
-        font-weight: 600;
-    }
-
-    nav ul li a {
-        display: flex;
-        text-decoration: none;
-        font-size: 2rem;
-        background-color: #31440c;
-        color: yellowgreen;
-        border: 1vw solid #9acd32;
-        width: 38vw;
-        height: 8vh;
-        margin-top: 1vh;
-        justify-content: center;
-        align-items: center;
-        display: none;
-    }
-
-    * {
-        padding: 0;
-        margin: 0;
-    }
-
-
-    body {
-        background-color: #F5F3E7;
-    }
-
-    .logo-img {
-        max-width: 5%;
-        height: auto;
-        margin: 10px;
-    }
-
-    hr {
-        border: none;
-        height: 2px;
-        background-color: #1B8728;
-    }
-
-    .header {
-        background-color: #119822;
-    }
-
-    .reserveer-nummer {
-        background-color: #119822;
-        color: #f1f1f1;
-        font-size: 1rem;
-        padding: 5px;
-        text-align: center;
-
-    }
-
-    .reserveer {
-        font-family: 'playfair display', sans-serif;
-        font-style: italic;
-        font-weight: 600;
-
-    }
-
-    .menu {
-        list-style: none;
-
-    }
-
-    li {
-        margin-bottom: 5px;
-    }
-
-    .material-icons,
-    .material-symbols-outlined {
-        color: #f1f1f1;
-
-
-    }
-
-    .icons-logo {
-        display: flex;
-        align-items: center;
-        margin-right: 25px;
-    }
-
-    .icons {
-        margin-left: auto;
-        display: flex;
-        gap: 10px;
-    }
-
-
-    .foto1 {
-        max-width: 100%;
-        border-radius: 8px;
-        margin-top: 2vh;
-        height: auto;
-
-    }
-
-    .foto2,
-    .foto3,
-    .foto4 {
-        display: none;
-        max-width: 100%;
-        border-radius: 8px;
-        margin-top: 2vh;
-        height: auto;
-    }
-
-    .socialLogo img {
-        width: 20px;
-        height: auto;
-
-
-    }
-
-
-    footer {
-        background-color: #119822;
-
-    }
-
-    footer p {
-        color: white;
-    }
+main form {
+    padding: 30px;
+    justify-content: center;
+    margin-left: 70px;
 
 
 }
 
+main {
+    background-color: #F5F3E7;
+
+}
+
+main input {
+    align-items: center;
+    display: flex;
+}
+
+hr {
+    color: #1B8728;
+    ;
+}
+
+h1,
+header span {
+    font-family: 'playfair display', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #1B8728;
+}
+
+.header {
+    background-color: #119822;
+}
+
+
+.logoFooter img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 49px;
+    margin-left: 150px;
+}
+
+nav ul li a {
+    display: flex;
+    text-decoration: none;
+    font-size: 2rem;
+    background-color: #31440c;
+    color: yellowgreen;
+    border: 1vw solid #9acd32;
+    width: 38vw;
+    height: 8vh;
+    margin-top: 1vh;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.logo-img {
+    max-width: 5%;
+    height: auto;
+    margin: 10px;
+}
+
+
+.tijdDatum {
+    display: flex;
+    gap: 10px;
+}
+
+.tijdDatum input {
+    width: 40%;
+}
+
+.reserveer-nummer {
+    background-color: #119822;
+    color: #f1f1f1;
+    font-size: 1rem;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.reserveer {
+    font-family: 'playfair display', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+
+}
+
+.menu {
+    list-style: none;
+
+}
+
+.material-icons,
+.material-symbols-outlined {
+    color: #f1f1f1;
+
+
+}
+
+
+
+.icons-logo {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.icons {
+    margin-left: auto;
+    display: flex;
+    gap: 10px;
+}
+
+.verzenden {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.socialLogo img {
+    width: 20px;
+    height: auto;
+
+
+}
+
+
+footer {
+    background-color: #119822;
+
+}
+
+footer p {
+    color: white;
+}
+
+
+
+/* tellie*/
+@media(max-width:576px) {}
 
 /* tablet*/
 @media(min-width:576px) and (max-width:991px) {}
