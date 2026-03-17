@@ -89,24 +89,25 @@
         height: auto;
     }
 
-
-     .logoFooter img {
+    /*van hier moet het gecontroleerdt en aangepast*/
+    .logoFooter img {
         display: flex;
         align-items: center;
         justify-content: center;
         width: 40px;
     }
     footer {
-    background-color: #119822;
-}
+        background-color: #119822;
+    }
 
-footer p {
-    color: white;
-}
+    footer p {
+        color: white;
+    }
 
-.iconsFooter {
-    width: 45%;
-}
+    .iconsFooter {
+        width: 45%;
+    }
+    /*to hier*/
 
 
 
