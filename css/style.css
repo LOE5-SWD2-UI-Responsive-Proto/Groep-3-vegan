@@ -65,6 +65,7 @@ li {
 
 .logoFooter {
     margin-left: 45%;
+    width: 40px;
 }
 
 .menu {
@@ -172,13 +173,14 @@ footer p {
         width: 60px;
         height: auto;
         margin: 10px;
+
     }
 
     .logoFooter img {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 50px;
+        width: 60px;
     }
 
 }
