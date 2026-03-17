@@ -88,6 +88,23 @@
         margin-top: 2vh;
         height: auto;
     }
+    .arrow{
+        width: 4%;
+        height: auto;
+        position: absolute;
+    }
+    .back {
+        left: 1.5%;
+        top: 95vh;
+    }
+    .forward{
+        right: 1.5%;
+        top: 95vh;
+    }
+
+
+
+
 
     /*van hier moet het gecontroleerdt en aangepast*/
     .logoFooter img {
@@ -116,7 +133,12 @@
      .logo-img {
         max-width: 10%;
     }
-   
+    .arrow{
+        width: 5%;
+    }
+    .back, .forward {
+        top: 50%;
+    }
 }
 /*tablet*/
 @media (min-width: 576px) and (max-width: 991px) {
