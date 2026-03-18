@@ -112,6 +112,7 @@
     }
     footer {
         background-color: #119822;
+        margin-top: 5vh;
     }
 
     footer p {
@@ -122,6 +123,38 @@
         width: 45%;
     }
     /*to hier*/
+    .team-sec{
+        text-align: center;
+    }
+
+    .team-foto{
+        width: 45%;
+        height: auto;
+        margin-top: 4vh;
+        margin-bottom: 2vh;
+        border-radius: 10px;
+
+    }
+    .overOns{
+        width: 75vw;
+        margin-left: 16vw;
+        font-size: 1.2rem;
+        font-family: 'Inter', sans-serif;
+        font-weight: 300;
+        text-align: left;
+        
+    }
+    button{
+        background-color: #119822;
+        border-radius: 0;
+        font-size: 1rem;
+        color: #ffffff;
+        margin-top: 2vh;
+        border: none;
+        padding: 10px;
+
+
+    }
 
 
 
