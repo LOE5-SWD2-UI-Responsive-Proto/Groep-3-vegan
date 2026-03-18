@@ -73,11 +73,11 @@
     }
     .fotoGallerie {
         position: relative;
+        margin-top: 2vh;        
     }
     .foto1 {
         max-width: 100%;
         border-radius: 8px;
-        margin-top: 2vh;
         height: auto;
 
     }
@@ -85,26 +85,23 @@
         display: none;
         max-width: 100%;
         border-radius: 8px;
-        margin-top: 2vh;
         height: auto;
     }
     .arrow{
         width: 4%;
         height: auto;
         position: absolute;
+        fill: #ffffff;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 10;
     }
     .back {
         left: 1.5%;
-        top: 95vh;
     }
     .forward{
         right: 1.5%;
-        top: 95vh;
     }
-
-
-
-
 
     /*van hier moet het gecontroleerdt en aangepast*/
     .logoFooter img {
@@ -130,15 +127,13 @@
 
 /*telephone-landingspagina*/
 @media (max-width: 576px) {
-     .logo-img {
+    .logo-img {
         max-width: 10%;
     }
     .arrow{
         width: 5%;
     }
-    .back, .forward {
-        top: 50%;
-    }
+   
 }
 /*tablet*/
 @media (min-width: 576px) and (max-width: 991px) {
