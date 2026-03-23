@@ -126,6 +126,32 @@ li {
     width: 40%;
 }
 
+.info-sectie {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 10px;
+    width: 80%;
+
+}
+
+.openingstijden,
+.locatie {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    width: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.openingstijden h2,
+.locatie h2 {
+    margin-bottom: 15px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+
 .verzenden {
     color: white;
     border: none;
@@ -147,6 +173,12 @@ footer {
     background-color: #119822;
 }
 
+.foto img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
 footer p {
     color: white;
 }
@@ -160,12 +192,29 @@ footer p {
         width: 40px;
     }
 
+    .foto img {
+        display: none;
+    }
+
     .logo-img {
         width: 50px;
         height: auto;
         margin: 10px;
     }
+
+    .info-sectie {
+        flex-direction: column;
+        padding: 10px;
+        width: 80%;
+    }
+
+    .openingstijden,
+    .locatie {
+        width: 100%;
+    }
 }
+
+
 
 /* tablet*/
 @media(min-width:576px) and (max-width:991px) {
@@ -175,6 +224,17 @@ footer p {
         margin: 10px;
 
     }
+
+    .foto img {
+        display: none;
+    }
+
+    .info-sectie {
+        flex-direction: column;
+        padding: 10px;
+        width: 80%;
+    }
+
 
     .logoFooter img {
         display: flex;
@@ -192,6 +252,18 @@ footer p {
         height: auto;
         margin: 10px;
     }
+
+    .foto img {
+        width: 60%;
+        margin-left: auto;
+    }
+
+    .info-sectie {
+        flex-direction: column;
+        padding: 10px;
+        width: 80%;
+    }
+
 
     .logoFooter img {
         display: flex;
