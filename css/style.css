@@ -262,7 +262,7 @@ footer p {
    .slogan .edited {
     font-size: clamp(2.4rem, 10vw, 4rem);
   }
-  /*van hier is chat gpt gebruik*/
+  /*van hier is chat gpt gebruik || Navigatie bar is niet resposive het moet aangepast worden!*/
   #nav {
     width: 95vw;
     height: auto;
