@@ -127,11 +127,12 @@ li {
 }
 
 .info-sectie {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    padding: 10px;
-    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    width: 100%;
+    max-width: 800px;
+    margin: 40px auto;
 
 }
 
@@ -140,17 +141,15 @@ li {
     background-color: white;
     padding: 20px;
     border-radius: 12px;
-    width: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
 }
 
 .openingstijden h2,
 .locatie h2 {
     margin-bottom: 15px;
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-}
+    font-family: "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap";
 
+}
 
 .verzenden {
     color: white;
@@ -276,4 +275,7 @@ footer p {
         gap: 5px;
     }
 
+    .info-sectie {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
