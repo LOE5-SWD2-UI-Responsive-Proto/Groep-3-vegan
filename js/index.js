@@ -1,12 +1,10 @@
 let hamburger = document.getElementById('hamburger');
 let nav = document.getElementById('nav');
+let closeBtn = document.querySelector('.close-btn');
 
-function showNav() {
-    if (nav.style.display === 'grid') {
-        nav.style.display = 'none';
-    } else {
-        nav.style.display = 'grid';
-    }
+function toggleNav() {
+    nav.classList.toggle('active');
 }
 
-hamburger.addEventListener('click', showNav);
+hamburger.addEventListener('click', toggleNav);
+closeBtn.addEventListener('click', toggleNav);
