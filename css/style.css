@@ -3,13 +3,29 @@
     margin: 0;
 }
 
-body {
-    background-color: #F5F3E7;
+:root[data-mode="dark"] {
+    --bgColor: #1e1b18;
+    --bgSecond: #0c0706;
+    --accent: #f1ece9;
+    --bgThird: #e5e0df;
+    --textColor: #f2ece7;
 }
 
-main {
-    background-color: #F5F3E7;
+:root[data-mode="light"] {
+    --bgColor: #F5F3E7;
+    --bgSecond: #c0392b;
+    --accent: #e5e0db;
+    --bgThird: #f0e5e3;
+    --textColor: #2c2c2c;
 }
+
+html {
+    background-color: var(--bgColor);
+    color: var(--textColor);
+}
+
+
+
 
 main h1 {
     display: flex;
