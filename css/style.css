@@ -229,7 +229,7 @@ footer p {
   }
 }
 /*laptops*/
-@media (min-width: 992px) and (max-width: 1440px) {
+@media (min-width: 992px) {
   .overOns-container {
     display: flex;
     align-items: center;
@@ -263,7 +263,7 @@ footer p {
     font-size: clamp(2.4rem, 10vw, 4rem);
   }
   /*van hier is chat gpt gebruik || Navigatie bar is niet resposive het moet aangepast worden!*/
-  #nav {
+  /*#nav {
     width: 95vw;
     height: auto;
     background-color: transparent;
@@ -273,6 +273,20 @@ footer p {
     opacity: 1;
     transform: none;
     pointer-events: auto; 
+  }*/
+  #nav {
+    position: relative;
+    top: 0;           
+    left: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    opacity: 1;
+    transform: none;
+    pointer-events: auto;
   }
   #nav ul {
     display: flex;
@@ -282,7 +296,7 @@ footer p {
   nav ul li a {
     width: auto;
     height: auto;
-    font-size: 1.3rem;
+    font-size: clamp(1.5rem, 1.8rem, 2rem);
     margin: 0;
     padding: 10px 15px;
     color: #f1f1f1;
@@ -296,6 +310,9 @@ footer p {
   /*tot hier*/
   .logoFooter{
     margin-left: 50%;
+  }
+  #search{
+    font-size: 1.7rem;
   }
 }
 
