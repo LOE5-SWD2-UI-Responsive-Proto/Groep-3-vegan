@@ -99,19 +99,15 @@ nav ul li a {
   position: relative;
   margin-top: 2vh;
 }
-.foto1 {
+.foto1,
+.foto2,
+.foto3,
+.foto4 {
   max-width: 100%;
   border-radius: 8px;
   height: auto;
   filter: brightness(85%);
-}
-.foto2,
-.foto3,
-.foto4 {
   display: none;
-  max-width: 100%;
-  border-radius: 8px;
-  height: auto;
 }
 .arrow {
   width: 4%;
