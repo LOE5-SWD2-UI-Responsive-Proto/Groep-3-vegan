@@ -9,8 +9,8 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <title>Vegan Restaurant</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <script src="/js/index.js" defer></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/index.js" defer></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap"
         rel="stylesheet">
@@ -25,7 +25,7 @@
         <h2 class="reserveer-nummer"> <span class="reserveer">Reserveer nu:</span> 020 456 78 92</h2>
         <hr class="hr-header">
         <article class="icons-logo">
-            <img class="logo-img" src="/logo_vegan_food_amsterdam.png" alt="Logo-Img">
+            <img class="logo-img" src="../logo_vegan_food_amsterdam.png" alt="Logo-Img">
             
             <nav class="nav-bar" id="nav">
         <ul class="menu">
