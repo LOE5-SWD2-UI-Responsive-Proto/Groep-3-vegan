@@ -438,7 +438,7 @@ header span {
 }
 
 .logoFooter {
-    margin-left: 45%;
+    margin-left: 48%;
     width: 40px;
 }
 
@@ -461,6 +461,8 @@ header span {
 
 .iconsFooter {
     width: 45%;
+    margin-top: 3px;
+    
 }
 
 .socialLogo img {
@@ -470,6 +472,13 @@ header span {
 
 .socialLogo {
     text-align: center;
+    filter: invert();
+    
+}
+.socialLogo p {
+  margin-bottom: 10px;
+  filter: invert();
+  font-size: large;
 }
 
 .tijdDatum {
