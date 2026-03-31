@@ -39,7 +39,7 @@ include "header.php";
                     met een glimlach klaar om je een onvergetelijke, duurzame avond te bezorgen.</p>
             </div>
 
-            <a href="#"><button class="menu-btn">Bekijk onze menu</button></a>
+            <a href="#"><button class="menu-btn">Bekijk onze menu2</button></a>
 
         </section>
     </main>
