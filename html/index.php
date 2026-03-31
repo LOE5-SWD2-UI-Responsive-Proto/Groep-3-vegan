@@ -30,11 +30,11 @@
             <nav class="nav-bar" id="nav">
         <ul class="menu">
             <button class="close-btn">&times;</button>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="#">Lunch-Diner</a></li>
-            <li><a href="boeken.html">Reserveren</a></li>
-            <li><a href="opening en locatie.html">Openingstijden</a></li>
-            <li><a href="vacature.html">Vacatures</a></li>
+            <li><a href="boeken.php">Reserveren</a></li>
+            <li><a href="opening en locatie.php">Openingstijden</a></li>
+            <li><a href="vacature.php">Vacatures</a></li>
         </ul>
     </nav>
     <div class="icons">
