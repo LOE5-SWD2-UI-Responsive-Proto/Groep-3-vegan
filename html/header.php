@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-mode="light"> 
 
 <head>
     <meta charset="UTF-8">
@@ -38,6 +38,7 @@
         </ul>
     </nav>
     <div class="icons">
+        <figure id="lightdark">&#127765;</figure>
                 <span class="material-symbols-outlined" id="search">search</span>
                 <span class="material-symbols-outlined" id="hamburger">menu</span>
             </div>
