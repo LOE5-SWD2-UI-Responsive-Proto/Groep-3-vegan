@@ -127,12 +127,7 @@ nav ul li a {
 }
 
 /*van hier moet het gecontroleerdt en aangepast*/
-.logoFooter img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-}
+
 .logoFooter {
   margin-left: 40%;
   width: 40px;
