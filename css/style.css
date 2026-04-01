@@ -140,10 +140,6 @@ footer {
 footer p {
   color: white;
 }
-
-.iconsFooter {
-  width: 45%;
-}
 /*to hier*/
 .team-sec {
   text-align: center;
@@ -237,12 +233,6 @@ header span {
   font-style: italic;
   font-weight: 600;
 }
-
-.logoFooter {
-  margin-left: 48%;
-  width: 40px;
-}
-
 .material-icons,
 .material-symbols-outlined {
   color: #f1f1f1;
@@ -326,10 +316,6 @@ header span {
   height: 30px;
 }
 
-footer {
-  background-color: #119822;
-}
-
 .foto img {
   width: 100%;
   border-radius: 10px;
@@ -349,13 +335,6 @@ footer p {
   .arrow {
     width: 5%;
   }
-  .logoFooter img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-  }
-
   .foto img {
     display: none;
   }
@@ -522,9 +501,6 @@ footer p {
     display: none;
   }
   /*tot hier*/
-  .logoFooter {
-    margin-left: 40%;
-  }
   #search {
     font-size: 1.7rem;
   }
