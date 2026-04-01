@@ -53,7 +53,7 @@ include "header.php";
         <p>020 456 78 92</p>
         <p>veganfood@gmail.com</p>
 
-        <hr>
+        <hr class="hr-footer">
 
         <div class="socialLogo">
             <div class="iconsFooter">
