@@ -77,16 +77,17 @@ nav ul li a {
   opacity: 0;
   transform: translateY(-20px);
   pointer-events: none;
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
 }
 #nav.active {
   opacity: 1;
   transform: translateY(0);
   pointer-events: auto;
-
 }
 /*tot hier*/
-.close-btn{
+.close-btn {
   position: absolute;
   font-size: 2.5rem;
   top: 3vh;
@@ -133,8 +134,8 @@ nav ul li a {
   width: 40px;
 }
 .logoFooter {
-    margin-left: 45%;
-    width: 40px;
+  margin-left: 40%;
+  width: 40px;
 }
 footer {
   background-color: #119822;
@@ -203,83 +204,79 @@ footer p {
   font-size: clamp(1.2rem, 5vw, 2rem);
 }
 :root[data-mode="dark"] {
-    --bgColor: #1e1b18;
-    --bgSecond: #0c0706;
-    --accent: #f1ece9;
-    --bgThird: #e5e0df;
-    --textColor: #f2ece7;
+  --bgColor: #1e1b18;
+  --bgSecond: #0c0706;
+  --accent: #f1ece9;
+  --bgThird: #e5e0df;
+  --textColor: #f2ece7;
 }
 
 :root[data-mode="light"] {
-    --bgColor: #F5F3E7;
-    --bgSecond: #c0392b;
-    --accent: #e5e0db;
-    --bgThird: #f0e5e3;
-    --textColor: #2c2c2c;
+  --bgColor: #f5f3e7;
+  --bgSecond: #c0392b;
+  --accent: #e5e0db;
+  --bgThird: #f0e5e3;
+  --textColor: #2c2c2c;
 }
 
-
 main h1 {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 main form {
-    padding: 30px;
-    justify-content: center;
-    margin-left: 70px;
+  padding: 30px;
+  justify-content: center;
+  margin-left: 70px;
 }
 
 main input {
-    display: flex;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 
 h1,
 header span {
-    font-family: 'playfair display', sans-serif;
-    font-style: italic;
-    font-weight: 600;
+  font-family: "playfair display", sans-serif;
+  font-style: italic;
+  font-weight: 600;
 }
 
 .logoFooter {
-    margin-left: 48%;
-    width: 40px;
+  margin-left: 48%;
+  width: 40px;
 }
 
 .material-icons,
 .material-symbols-outlined {
-    color: #f1f1f1;
+  color: #f1f1f1;
 }
 
 .icons-logo {
-    display: flex;
-    align-items: center;
-    margin-right: 55px;
+  display: flex;
+  align-items: center;
+  margin-right: 55px;
 }
 
 .icons {
-    margin-left: auto;
-    display: flex;
-    gap: 10px;
+  margin-left: auto;
+  display: flex;
+  gap: 10px;
 }
 
 .iconsFooter {
-    width: 45%;
-    margin-top: 3px;
-    
+  width: 45%;
+  margin-top: 3px;
 }
 
 .socialLogo img {
-    width: 20px;
-
+  width: 20px;
 }
 
 .socialLogo {
-    text-align: center;
-    filter: invert();
-    
+  text-align: center;
+  filter: invert();
 }
 .socialLogo p {
   margin-bottom: 10px;
@@ -288,70 +285,65 @@ header span {
 }
 
 .tijdDatum {
-    display: flex;
-    width: 50%;
-    gap: 10px;
+  display: flex;
+  width: 50%;
+  gap: 10px;
 }
 
 .tijdDatum input {
-    width: 40%;
+  width: 40%;
 }
 
 .info-sectie {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 30px;
-    width: 100%;
-    max-width: 800px;
-    margin: 40px auto;
-
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  width: 100%;
+  max-width: 800px;
+  margin: 40px auto;
 }
 
 .openingstijden,
 .locatie {
-    background-color: white;
-    padding: 20px;
-    border-radius: 12px;
-
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
 }
 
 .openingstijden h2,
 .locatie h2 {
-    margin-bottom: 15px;
-    font-family: "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap";
-
+  margin-bottom: 15px;
+  font-family: "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap";
 }
 
 .verzenden {
-    color: white;
-    border: none;
-    padding: 6px 12px;
-    cursor: pointer;
-    text-align: center;
-
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  text-align: center;
 }
 
 .input1 {
-    color: #f1f1f1;
-    background-color: #119822;
-    border: none;
-    height: 30px;
-
+  color: #f1f1f1;
+  background-color: #119822;
+  border: none;
+  height: 30px;
 }
 
 footer {
-    background-color: #119822;
+  background-color: #119822;
 }
 
 .foto img {
-    width: 100%;
-    border-radius: 10px;
-    margin-top: 10px;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
 }
 
 footer p {
-    color: white;
-    margin-left: 5px;
+  color: white;
+  margin-left: 5px;
 }
 
 /*telephone*/
@@ -363,103 +355,100 @@ footer p {
     width: 5%;
   }
   .logoFooter img {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 40px;
-    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+  }
 
-    .foto img {
-        display: none;
-    }
+  .foto img {
+    display: none;
+  }
 
-    .logo-img {
-        width: 50px;
-        height: auto;
-        margin: 10px;
-    }
+  .logo-img {
+    width: 50px;
+    height: auto;
+    margin: 10px;
+  }
 
-    .info-sectie {
-        flex-direction: column;
-        padding: 10px;
-        width: 80%;
-    }
+  .info-sectie {
+    flex-direction: column;
+    padding: 10px;
+    width: 80%;
+  }
 
-    .openingstijden,
-    .locatie {
-        width: 100%;
-    }
+  .openingstijden,
+  .locatie {
+    width: 100%;
+  }
 }
 /*tablet*/
 @media (min-width: 576px) and (max-width: 991px) {
-   .logo-img {
-        width: 60px;
-        height: auto;
-        margin: 10px;
+  .logo-img {
+    width: 60px;
+    height: auto;
+    margin: 10px;
+  }
 
-    }
+  .foto img {
+    display: none;
+  }
 
-    .foto img {
-        display: none;
-    }
+  .info-sectie {
+    flex-direction: column;
+    padding: 10px;
+    width: 80%;
+  }
 
-    .info-sectie {
-        flex-direction: column;
-        padding: 10px;
-        width: 80%;
-    }
-
-
-    .logoFooter img {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 60px;
-    }
+  .logoFooter img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+  }
   .overOns {
     font-size: 1.5rem;
   }
-  nav ul li a{
+  nav ul li a {
     font-size: 3.5rem;
   }
-  .close-btn{
+  .close-btn {
     font-size: 3.5rem;
   }
 }
 /*laptops*/
 @media (min-width: 992px) {
-   .logo-img {
-        width: 80px;
-        height: auto;
-        margin: 10px;
-    }
+  .logo-img {
+    width: 80px;
+    height: auto;
+    margin: 10px;
+  }
 
-    .foto img {
-        width: 60%;
-        margin-left: auto;
-    }
+  .foto img {
+    width: 60%;
+    margin-left: auto;
+  }
 
-    .info-sectie {
-        flex-direction: column;
-        padding: 10px;
-        width: 80%;
-    }
+  .info-sectie {
+    flex-direction: column;
+    padding: 10px;
+    width: 80%;
+  }
 
+  .logoFooter img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+  }
 
-    .logoFooter img {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 60px;
-    }
+  .menu {
+    gap: 5px;
+  }
 
-    .menu {
-        gap: 5px;
-    }
-
-    .info-sectie {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .info-sectie {
+    grid-template-columns: repeat(2, 1fr);
+  }
   .overOns-container {
     display: flex;
     align-items: center;
@@ -486,10 +475,10 @@ footer p {
     margin-top: 8vh;
     padding: 15px;
   }
-  .slogan .big{
+  .slogan .big {
     font-size: clamp(2.8rem, 12vw, 5rem);
   }
-   .slogan .edited {
+  .slogan .edited {
     font-size: clamp(2.4rem, 10vw, 4rem);
   }
   /*van hier is chat gpt gebruik || Navigatie bar is niet resposive het moet aangepast worden!*/
@@ -506,7 +495,7 @@ footer p {
   }*/
   #nav {
     position: relative;
-    top: 0;           
+    top: 0;
     left: 0;
     width: 100%;
     height: auto;
@@ -534,14 +523,14 @@ footer p {
   .close-btn {
     display: none;
   }
-  #hamburger{
+  #hamburger {
     display: none;
   }
   /*tot hier*/
-  .logoFooter{
+  .logoFooter {
     margin-left: 50%;
   }
-  #search{
+  #search {
     font-size: 1.7rem;
   }
 }
