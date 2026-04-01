@@ -129,12 +129,15 @@ nav ul li a {
 /*van hier moet het gecontroleerdt en aangepast*/
 
 .logoFooter {
-  margin-left: 40%;
+  margin-left: 48%;
   width: 40px;
 }
 footer {
-  background-color: #000000;
+  background-color: #119822;
   margin-top: 5vh;
+}
+.logoFooter img {
+  width: 40px;
 }
 
 footer p {
@@ -375,10 +378,10 @@ footer p {
   }
 
   .logoFooter img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 60px;
+  }
+  .logoFooter{
+    margin-left: 45.5%;
   }
   .overOns {
     font-size: 1.5rem;
@@ -456,17 +459,6 @@ footer p {
     font-size: clamp(2.4rem, 10vw, 4rem);
   }
   /*van hier is chat gpt gebruik || Navigatie bar is niet resposive het moet aangepast worden!*/
-  /*#nav {
-    width: 95vw;
-    height: auto;
-    background-color: transparent;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    opacity: 1;
-    transform: none;
-    pointer-events: auto; 
-  }*/
   #nav {
     position: relative;
     top: 0;
