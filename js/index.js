@@ -35,7 +35,7 @@ function openOrClosedMessage() {
         openOrClosed.style.color = 'red';
 
         if (hour > 22) {
-            openOrClosed.innerHTML = `Closed - Opens in: ${24 - hour + 17}`;
+            openOrClosed.innerHTML = `Closed - Opens in: ${24 - hour + 18}`;
         } else {
             openOrClosed.innerHTML = `Closed - Opens in: ${17 - hour}`;
         }
