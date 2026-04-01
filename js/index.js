@@ -1,5 +1,4 @@
 //light dark mode//
-
 const zwartWit = document.getElementById("lightdark");
 
 function switchlightdark() {
@@ -23,7 +22,7 @@ function openOrClosedMessage() {
     const hour = objDate.getHours();
     const minutes = objDate.getMinutes();
 
-    if (hour >= 17 && hour <= 22) {
+    if (hour >= 17 && hour < 22) {
         openOrClosed.style.color = 'green';
 
         if (60 - minutes <= 10) {
@@ -35,10 +34,10 @@ function openOrClosedMessage() {
     } else {
         openOrClosed.style.color = 'red';
 
-        if (hour >= 22) {
-            openOrClosed.innerHTML = `Closed - Opens in: ${24 - hour + 12}`;
+        if (hour > 22) {
+            openOrClosed.innerHTML = `Closed - Opens in: ${24 - hour + 17}`;
         } else {
-            openOrClosed.innerHTML = `Closed - Opens in: ${12 - hour}`;
+            openOrClosed.innerHTML = `Closed - Opens in: ${17 - hour}`;
         }
     }
 }

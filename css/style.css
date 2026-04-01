@@ -8,7 +8,7 @@
     --bgSecond: #0c0706;
     --accent: #f1ece9;
     --bgThird: #e5e0df;
-    --textColor: #f2ece7;
+    --textColor: #cdcdcd;
 }
 
 :root[data-mode="light"] {

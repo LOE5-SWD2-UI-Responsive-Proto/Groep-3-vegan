@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="author" content="Evra">
+    <meta name="author" content="Amin">
     <meta name="description" content="">
     <meta name="keywords" content="">
     <title>Vegan Restaurant</title>
@@ -35,6 +35,7 @@
         </article>
 
 
+
     </header>
 
     <nav class="nav-bar">
@@ -49,9 +50,9 @@
     <main>
 
         <h1>
-            Werk bij ons!
+            Boek uw reservering!
         </h1>
-        <form action="vacature.html" method="post">
+        <form action="boeken.html" method="post">
 
 
             <p> Voornaam:</p> <br>
@@ -60,35 +61,24 @@
             <input type="text"> <br> <br>
             <p> E-mail:</p> <br>
             <input type="text"> <br> <br>
-            <p> Telefoonnummer:</p> <br>
+            <p> Aantal personen:</p> <br>
             <input type="text"> <br> <br>
-            Woonplaats
-            <input type="text">
-            <p></p> <br>
+            <p>Datum & Tijd</p> <br>
+
+            <div class="tijdDatum">
+                <input type="date" placeholder="Datum"> <br>
+                <input type="time" placeholder="Tijd"> <br> <br>
+            </div>
             <br>
             <div class="verzenden">
                 <input class="input1" type="submit" value="Verzenden"> <br>
             </div>
         </form>
     </main>
-    <footer>
-        <div class="logoFooter">
-            <img src="../logo_vegan_food_amsterdam.png" alt="logo">
-        </div>
-
-        <p>020 456 78 92</p>
-        <p>veganfood@gmail.com</p>
-
-        <hr>
-
-        <div class="socialLogo">
-            <div class="iconsFooter">
-            </div>
-            <p>volg ons</p>
-            <img src="../facebookk.png" alt="facebook">
-            <img src="../instagram-removebg-preview.png" alt="instagram">
-        </div>
-    </footer>
+   <?php
+   include "footer.php"
+   
+   ?>
 
 </body>
 
