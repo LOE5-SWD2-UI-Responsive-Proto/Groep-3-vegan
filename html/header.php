@@ -31,7 +31,7 @@
         <ul class="menu">
             <button class="close-btn">&times;</button>
             <li><a href="index.php">Home</a></li>
-            <li><a href="#">Lunch-Diner</a></li>
+            <li><a href="lunchDiner.php">Lunch-Diner</a></li>
             <li><a href="boeken.php">Reserveren</a></li>
             <li><a href="opening en locatie.php">Openingstijden</a></li>
             <li><a href="vacature.php">Vacatures</a></li>

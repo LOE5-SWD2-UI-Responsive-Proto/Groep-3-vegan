@@ -174,7 +174,7 @@ footer p {
   padding: 10px;
   cursor: pointer;
 }
-.slogan {
+.slogan, .slogan2 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -191,11 +191,20 @@ footer p {
 .slogan .big {
   font-size: clamp(1.4rem, 6vw, 2.5rem);
 }
+.slogan2 .big {
+  font-size: clamp(1.4rem, 6vw, 2.5rem);
+}
 
 .slogan .small {
   font-size: clamp(0.9rem, 3.5vw, 1.4rem);
 }
 .slogan .edited {
+  font-size: clamp(1.2rem, 5vw, 2rem);
+}
+.slogan2 .small {
+  font-size: clamp(0.9rem, 3.5vw, 1.4rem);
+}
+.slogan2 .edited {
   font-size: clamp(1.2rem, 5vw, 2rem);
 }
 :root[data-mode="dark"] {
@@ -328,6 +337,71 @@ footer p {
   margin-left: 5px;
 }
 
+
+.container {
+    max-width: 420px;
+    padding: 15px;
+}
+
+
+.dropdown {
+    width: 50%;
+    background: #2e7d32;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 25%;
+    max-width: 200px;
+    text-align: center;
+}
+
+.meal {
+    background: #FAF9F6;
+    border-radius: 18px;
+    padding: 16px;
+    margin-bottom: 20px;
+}
+
+.meal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.meal-title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.price {
+    font-size: 16px;
+}
+
+
+.meal-desc {
+    font-size: 14px;
+    color: #333;
+    margin: 10px 0 15px;
+    line-height: 1.4;
+}
+
+.meal img {
+     width: 100%;
+    height: auto;
+    border-radius: 14px;
+    display: block;
+}
+.foto5{
+    display: none;
+}
+
+
+
 /*telephone*/
 @media (max-width: 576px) {
   .logo-img {
@@ -356,6 +430,7 @@ footer p {
   .locatie {
     width: 100%;
   }
+ 
 }
 /*tablet*/
 @media (min-width: 576px) and (max-width: 991px) {
@@ -390,6 +465,43 @@ footer p {
   .close-btn {
     font-size: 3.5rem;
   }
+   .foto5{
+    width: 100%;
+    border-radius: 8px;
+    filter: brightness(85%);
+    display: inline;
+    }
+     .container {
+        max-width: 98vw;  
+        margin: auto;
+    }
+
+    .big-container {
+        display: grid;
+        grid-template-columns: 1fr; 
+        gap: 5px;
+    }
+
+    .meal {
+        padding: 25px; 
+    }
+
+    .meal-title {
+        font-size: 1.5rem; 
+    }
+
+    .price {
+        font-size: 1.5rem;
+    }
+
+    .meal-desc {
+        font-size: 1.1rem;
+    }
+    .dropdown {
+    margin-left: 40%;
+     margin-bottom: 40px;
+    margin-top: 40px;
+}
 }
 /*laptops*/
 @media (min-width: 992px) {
@@ -456,6 +568,12 @@ footer p {
   .slogan .edited {
     font-size: clamp(2.4rem, 10vw, 4rem);
   }
+  .slogan2 .big {
+    font-size: clamp(2.8rem, 12vw, 5rem);
+  }
+  .slogan2 .edited {
+    font-size: clamp(2.4rem, 10vw, 4rem);
+  }
   /*van hier is chat gpt gebruik || Navigatie bar is niet resposive het moet aangepast worden!*/
   #nav {
     position: relative;
@@ -494,4 +612,33 @@ footer p {
   #search {
     font-size: 1.7rem;
   }
+  .big-container{
+        display: grid;
+        grid-template-columns: 48vw 48vw; 
+        gap: 20px;
+        
+    }
+    .dropdown {
+    margin-left: 42%;
+     margin-bottom: 40px;
+    margin-top: 40px;
+}
+    .meal-title {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.price {
+    font-size: 1.8rem;
+}
+.meal-desc {
+    font-size: 1.2rem;
+    
+}
+.foto5{
+    width: 100%;
+    border-radius: 8px;
+    filter: brightness(85%);
+    display: inline;
+}
 }
