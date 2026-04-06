@@ -211,7 +211,7 @@ include "header.php";
             <div class="meal-desc">
                 Krachtige, volle koffie met een rijke smaak en romige crema.
             </div>
-            <img alt="Krachtige, volle koffie met een rijke smaak en romige crema." src="../imgs/espresso.jpg">
+            <img alt="Krachtige, volle koffie met een rijke smaak en romige crema." src="../imgs/eten14.png">
         </div>
 
         <div class="meal">
