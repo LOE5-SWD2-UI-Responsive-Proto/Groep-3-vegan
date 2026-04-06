@@ -95,10 +95,15 @@ nav ul li a {
   position: relative;
   margin-top: 2vh;
 }
+
 .foto1,
 .foto2,
 .foto3,
-.foto4 {
+.foto4,
+.foto5,
+.foto6,
+.foto7,
+.foto8 {
   max-width: 100%;
   border-radius: 8px;
   height: auto;
@@ -630,4 +635,9 @@ footer p {
       margin-bottom: 40px;
       font-size: 3.2rem;
 }
+
+ .fotoGallerie img {
+        width: 100%;
+        margin: 0 auto;
+    }
 }

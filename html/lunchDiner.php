@@ -13,10 +13,11 @@ include "header.php";
 
 
 <body>
+    <main>
     <section class="fotoGallerie-sec">
             <div class="fotoGallerie">
 
-                <img class="foto5" src="../imgs/slogan2foto.png" alt="etenFoto">
+                <img class="foto5" src="../imgs/slogan2foto.png" alt="etenFoto achter de slogan">
                 <div class="slogan2">
                     <span class="small edited">Puur genieten, volledig plantaardig. 
                     Verse, smaakvolle gerechten met liefde 
@@ -26,10 +27,6 @@ include "header.php";
 
         </section>
 
-
-
-    
-    
 <div class="container">
     <h1 class="gerechten-title">Voorgerechten</h1>
    <div class="big-container">
@@ -353,6 +350,7 @@ include "header.php";
 
 
 </div>
+<main>
 </div>
 
 
@@ -368,8 +366,8 @@ include "header.php";
 
         <div class="socialLogo">
             <p>volg ons</p>
-            <img alt="hello world" src="../facebookk.png" alt="facebook">
-            <img alt="hello world" src="../instagram-removebg-preview.png" alt="instagram">
+            <img src="../facebookk.png" alt="facebook">
+            <img src="../instagram-removebg-preview.png" alt="instagram">
         </div>
     </footer>
 </body>

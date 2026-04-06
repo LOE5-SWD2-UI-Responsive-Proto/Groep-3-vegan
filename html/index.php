@@ -14,10 +14,14 @@ include "header.php";
         <section class="fotoGallerie-sec">
             <div class="fotoGallerie">
 
-                <img class="foto1" src="../imgs/89aaa4fe-6f7e-447e-992a-aaa20923934a.avif" alt="pasta foto">
-                <img class="foto2" src="../imgs/download.png" alt="etenFoto">
-                <img class="foto3" src="../imgs/PixelBin-AI-Editor-1774865220778.png" alt="etenFoto">
-                <img class="foto4" src="../imgs/resized_no_padding_1920x1285.png" alt="etenFoto">
+                <img class="foto1" src="../imgs/eten5.png" alt="pasta foto">
+                <img class="foto2" src="../imgs/eten8.png" alt="etenFoto">
+                <img class="foto3" src="../imgs/eten7.png" alt="etenFoto">
+                <img class="foto4" src="../imgs/eten2.png" alt="etenFoto">
+                <img class="foto5" src="../imgs/eten3.png" alt="pasta foto">
+                <img class="foto6" src="../imgs/eten6.png" alt="etenFoto">
+                <img class="foto7" src="../imgs/eten10.png" alt="etenFoto">
+                <img class="foto8" src="../imgs/eten12.png" alt="etenFoto">
                 <div class="slogan">
                     <span class="big">Vegan</span>
                     <span class="small edited">Vegan & Vegetarian Dining in</span>

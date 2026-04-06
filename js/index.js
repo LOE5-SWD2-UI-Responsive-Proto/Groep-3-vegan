@@ -11,13 +11,17 @@ closeBtn.addEventListener('click', toggleNav);
 
 
 let current = 1;
-const total = 4;
+const total = 8;
 
 const fotos = [
   document.querySelector(".foto1"),
   document.querySelector(".foto2"),
   document.querySelector(".foto3"),
-  document.querySelector(".foto4")
+  document.querySelector(".foto4"),
+  document.querySelector(".foto5"),
+  document.querySelector(".foto6"),
+  document.querySelector(".foto7"),
+  document.querySelector(".foto8")
 ];
 
 function showFoto(n) {
