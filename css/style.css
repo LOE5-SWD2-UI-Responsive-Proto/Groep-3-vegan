@@ -9,6 +9,7 @@
     --accent: #f1ece9;
     --bgThird: #e5e0df;
     --textColor: #cdcdcd;
+}
 body {
   background-color: #f5f3e7;
 }
@@ -647,5 +648,4 @@ footer p {
         width: 100%;
         margin: 0 auto;
     }
-}
 }
