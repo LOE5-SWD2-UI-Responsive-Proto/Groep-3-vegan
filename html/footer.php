@@ -9,8 +9,6 @@
         <hr>
 
         <div class="socialLogo">
-            <div class="iconsFooter">
-            </div>
             <p>volg ons</p>
             <img src="../facebookk.png" alt="facebook">
             <img src="../instagram-removebg-preview.png" alt="instagram">

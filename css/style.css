@@ -119,17 +119,21 @@ li {
     gap: 10px;
 }
 
-.iconsFooter {
-    width: 45%;
-}
 
 .socialLogo img {
     width: 20px;
+
 
 }
 
 .socialLogo {
     text-align: center;
+    filter: invert();
+
+}
+
+.socialLogo p {
+    filter: invert();
 }
 
 .tijdDatum {
@@ -193,6 +197,7 @@ footer {
     border-radius: 10px;
     margin-top: 10px;
 }
+
 
 footer p {
     color: white;
@@ -285,6 +290,7 @@ footer p {
         align-items: center;
         justify-content: center;
         width: 60px;
+
     }
 
     .menu {
