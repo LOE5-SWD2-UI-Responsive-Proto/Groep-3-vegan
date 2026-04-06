@@ -234,7 +234,7 @@ include "header.php";
             <div class="meal-desc">
                 Zachte espresso met romige, opgeschuimde havermelk.
             </div>
-            <img alt="Zachte espresso met romige, opgeschuimde havermelk." src="../imgs/eten10.png" >
+            <img alt="Zachte espresso met romige, opgeschuimde havermelk." src="../imgs/eten15.png" >
         </div>
 
         <div class="meal">
@@ -245,7 +245,7 @@ include "header.php";
             <div class="meal-desc">
                 Keuze uit verschillende aromatische en rustgevende theesoorten.
             </div>
-            <img alt="Keuze uit verschillende aromatische en rustgevende theesoorten." src="../imgs/eten10.png">
+            <img alt="Keuze uit verschillende aromatische en rustgevende theesoorten." src="../imgs/eten16.png">
         </div>
 
         <div class="meal">
@@ -256,7 +256,7 @@ include "header.php";
             <div class="meal-desc">
                 Verfrissende thee van verse muntblaadjes.
             </div>
-            <img alt="Verfrissende thee van verse muntblaadjes." src="../imgs/eten10.png">
+            <img alt="Verfrissende thee van verse muntblaadjes." src="../imgs/eten17.png">
         </div>
     </div>
 
@@ -272,7 +272,7 @@ include "header.php";
             <div class="meal-desc">
                 Verfrissende, licht gezoete ijsthee, dagelijks vers bereid.
             </div>
-            <img alt="Verfrissende, licht gezoete ijsthee, dagelijks vers bereid." src="../imgs/eten10.png">
+            <img alt="Verfrissende, licht gezoete ijsthee, dagelijks vers bereid." src="../imgs/eten18.png">
         </div>
 
         <div class="meal">
@@ -283,7 +283,7 @@ include "header.php";
             <div class="meal-desc">
                 Puur sap van verse sinaasappels, vol vitamines.
             </div>
-            <img alt="Puur sap van verse sinaasappels, vol vitamines." src="../imgs/eten10.png" >
+            <img alt="Puur sap van verse sinaasappels, vol vitamines." src="../imgs/eten19.png" >
         </div>
 
         <div class="meal">
@@ -294,7 +294,7 @@ include "header.php";
             <div class="meal-desc">
                 Licht bruisende, gefermenteerde thee met wisselende smaken.
             </div>
-            <img alt="Licht bruisende, gefermenteerde thee met wisselende smaken." src="../imgs/eten10.png">
+            <img alt="Licht bruisende, gefermenteerde thee met wisselende smaken." src="../imgs/eten20.png">
         </div>
 
         <div class="meal">
@@ -305,7 +305,7 @@ include "header.php";
             <div class="meal-desc">
                 Natuurlijke frisdranken zonder kunstmatige toevoegingen.
             </div>
-            <img alt="Natuurlijke frisdranken zonder kunstmatige toevoegingen." src="../imgs/eten10.png">
+            <img alt="Natuurlijke frisdranken zonder kunstmatige toevoegingen." src="../imgs/eten21.png">
         </div>
     </div>
 
@@ -322,7 +322,7 @@ include "header.php";
             <div class="meal-desc">
                 Volle, zachte witte wijn met fruitige en licht romige tonen.
             </div>
-            <img alt="Volle, zachte witte wijn met fruitige en licht romige tonen." src="../imgs/eten10.png">
+            <img alt="Volle, zachte witte wijn met fruitige en licht romige tonen." src="../imgs/eten22.png">
         </div>
 
         <div class="meal">
@@ -333,7 +333,7 @@ include "header.php";
             <div class="meal-desc">
                 Frisse, levendige wijn met citrus en groene accenten.
             </div>
-            <img alt="Frisse, levendige wijn met citrus en groene accenten." src="../imgs/eten10.png" >
+            <img alt="Frisse, levendige wijn met citrus en groene accenten." src="../imgs/eten23.png" >
         </div>
     </div>
         <h3 class="gerechten-title">Rood</h3>
@@ -346,7 +346,7 @@ include "header.php";
             <div class="meal-desc">
                 Soepele rode wijn met zachte tannines en rijp rood fruit.
             </div>
-            <img alt="Soepele rode wijn met zachte tannines en rijp rood fruit." src="../imgs/eten10.png">
+            <img alt="Soepele rode wijn met zachte tannines en rijp rood fruit." src="../imgs/eten24.png">
         </div>
 
         <div class="meal">
@@ -357,7 +357,7 @@ include "header.php";
             <div class="meal-desc">
                 Karaktervolle wijn met kruidige tonen en een warme afdronk.
             </div>
-            <img alt="Karaktervolle wijn met kruidige tonen en een warme afdronk." src="../imgs/eten10.png">
+            <img alt="Karaktervolle wijn met kruidige tonen en een warme afdronk." src="../imgs/eten25.png">
         </div>
     </div>    
     
