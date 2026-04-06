@@ -1,13 +1,13 @@
+document.addEventListener("DOMContentLoaded", function () {
+    const button = document.getElementById("lightdark");
 
-//light dark mode//
-const zwartWit = document.getElementById("lightdark");
+    if (!button) return;
 
-function switchlightdark() {
-    if (document.documentElement.dataset.mode != 'dark') {
-        document.documentElement.dataset.mode = 'dark';
-    } else {
-        document.documentElement.dataset.mode = 'light';
-    }
-}
+    button.addEventListener("click", function () {
+        let mode = document.documentElement.getAttribute("data-mode");
 
-lightdark.addEventListener('click', switchlightdark);
+        mode = (mode === "dark") ? "light" : "dark";
+
+        document.documentElement.setAttribute("data-mode", mode);
+    });
+});
