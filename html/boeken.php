@@ -52,7 +52,7 @@
         <h1>
             Boek uw reservering!
         </h1>
-        <form action="boeken.html" method="post">
+        <form action="boeken.php" method="post">
 
 
             <p> Voornaam:</p> <br>

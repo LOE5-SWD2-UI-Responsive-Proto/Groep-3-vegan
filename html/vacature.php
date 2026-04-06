@@ -51,7 +51,7 @@
         <h1>
             Werk bij ons!
         </h1>
-        <form action="vacature.html" method="post">
+        <form action="vacature.php" method="post">
 
 
             <p> Voornaam:</p> <br>
