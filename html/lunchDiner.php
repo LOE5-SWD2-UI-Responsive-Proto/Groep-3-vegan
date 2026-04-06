@@ -2,7 +2,14 @@
 
 include "header.php";
 ?>
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Ontdek een levendige vegan eetervaring met creatieve plantaardige gerechten, verse ingrediënten en duurzame smaken voor elke liefhebber.">
+    <meta name="keywords" content="vegan restaurant, plantaardig eten, vegan eten, gezond restaurant, vegan gerechten, biologisch vegan, duurzaam eten, vegetarische opties, vegan keuken, milieuvriendelijk restaurant, verse ingrediënten, plantaardig menu, vegan lunch, vegan diner">
+    <meta name="author" content="Amin">
+</head>
 
 
 <body>

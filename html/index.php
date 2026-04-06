@@ -1,12 +1,20 @@
 <?php
 include "header.php";
 ?>
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Ontdek een levendige vegan eetervaring met creatieve plantaardige gerechten, verse ingrediënten en duurzame smaken voor elke liefhebber.">
+    <meta name="keywords" content="vegan restaurant, plantaardig eten, vegan eten, gezond restaurant, vegan gerechten, biologisch vegan, duurzaam eten, vegetarische opties, vegan keuken, milieuvriendelijk restaurant, verse ingrediënten, plantaardig menu, vegan lunch, vegan diner">
+    <meta name="author" content="Amin">
+</head>
+<body>
     <main>
         <section class="fotoGallerie-sec">
             <div class="fotoGallerie">
 
-                <img class="foto1" src="../imgs/89aaa4fe-6f7e-447e-992a-aaa20923934a.avif" alt="etenFoto">
+                <img class="foto1" src="../imgs/89aaa4fe-6f7e-447e-992a-aaa20923934a.avif" alt="pasta foto">
                 <img class="foto2" src="../imgs/download.png" alt="etenFoto">
                 <img class="foto3" src="../imgs/PixelBin-AI-Editor-1774865220778.png" alt="etenFoto">
                 <img class="foto4" src="../imgs/resized_no_padding_1920x1285.png" alt="etenFoto">
