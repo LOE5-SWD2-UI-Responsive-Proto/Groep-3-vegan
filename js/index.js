@@ -7,32 +7,51 @@ function switchlightdark() {
     } else {
         document.documentElement.dataset.mode = 'light';
     }
+let hamburger = document.getElementById('hamburger');
+let nav = document.getElementById('nav');
+let closeBtn = document.querySelector('.close-btn');
+
+function toggleNav() {
+    nav.classList.toggle('active');
 }
 
-lightdark.addEventListener('click', switchlightdark);
+hamburger.addEventListener('click', toggleNav);
+closeBtn.addEventListener('click', toggleNav);
 
 
-// open close code
+let current = 1;
+const total = 8;
 
-let objDate = new Date();
+const fotos = [
+  document.querySelector(".foto1"),
+  document.querySelector(".foto2"),
+  document.querySelector(".foto3"),
+  document.querySelector(".foto4"),
+  document.querySelector(".foto5"),
+  document.querySelector(".foto6"),
+  document.querySelector(".foto7"),
+  document.querySelector(".foto8")
+];
 
-const openOrClosed = document.getElementById("openOrClosed");
-
-function openOrClosedMessage() {
-    const hour = objDate.getHours();
-    const minutes = objDate.getMinutes();
+function showFoto(n) {
+  fotos.forEach(f => f.style.display = "none");
+  fotos[n - 1].style.display = "block";
+}
 
     if (hour >= 17 && hour < 22) {
         openOrClosed.style.color = 'green';
+function nextSlide() {
+  current = (current % total) + 1;
+  showFoto(current);
+}
 
-        if (60 - minutes <= 10) {
-            openOrClosed.innerHTML = `Open - Closes in: ${22 - hour}:${60 - minutes}`;
-        } else {
-            openOrClosed.innerHTML = `Open - Closes in: ${22 - hour}:${60 - minutes}`;
-        }
+function prevSlide() {
+  current = (current - 2 + total) % total + 1;
+  showFoto(current);
+}
 
-    } else {
-        openOrClosed.style.color = 'red';
+document.querySelector(".forward").addEventListener("click", nextSlide);
+document.querySelector(".back").addEventListener("click", prevSlide);
 
         if (hour > 22) {
             openOrClosed.innerHTML = `Closed - Opens in: ${24 - hour + 18}`;
@@ -45,3 +64,5 @@ function week() {
     openOrClosedMessage();
 }
 openOrClosedMessage();
+showFoto(current);
+setInterval(nextSlide, 4000);

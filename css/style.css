@@ -1,6 +1,6 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 :root[data-mode="dark"] {
@@ -9,295 +9,642 @@
     --accent: #f1ece9;
     --bgThird: #e5e0df;
     --textColor: #cdcdcd;
+body {
+  background-color: #f5f3e7;
+}
+.logo-img {
+  max-width: 5%;
+  height: auto;
+  margin: 10px;
+}
+hr {
+  border: none;
+  height: 2px;
+  background-color: #1b8728;
+}
+.header {
+  background-color: #119822;
+}
+.reserveer-nummer {
+  background-color: #119822;
+  color: #f1f1f1;
+  font-size: 1rem;
+  padding: 5px;
+  text-align: center;
+}
+.reserveer {
+  font-family: "playfair display", sans-serif;
+  font-style: italic;
+  font-weight: 600;
+}
+.menu {
+  list-style: none;
+}
+li {
+  margin-bottom: 5px;
+}
+.material-symbols-outlined {
+  color: #f1f1f1;
+}
+.icons-logo {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+}
+nav ul li a {
+  display: flex;
+  text-decoration: none;
+  font-size: 2.5rem;
+  color: #31440c;
+  width: 58vw;
+  height: 12vh;
+  margin-top: 1vh;
+  justify-content: center;
+  align-items: center;
+}
+#nav {
+  position: absolute;
+  background-color: #8bb832;
+  width: 98vw;
+  height: 90vh;
+  top: 10vh;
+  left: 1vw;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  z-index: 20;
+  /*van hier is een beetje chat gpt gebruikt*/
+  display: grid;
+  opacity: 0;
+  transform: translateY(-20px);
+  pointer-events: none;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
+}
+#nav.active {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+/*tot hier*/
+.close-btn {
+  position: absolute;
+  font-size: 2.5rem;
+  top: 3vh;
+  background-color: #8bb832;
+  color: #31440c;
+  border: none;
+  right: 5vw;
+}
+.fotoGallerie {
+  position: relative;
+  margin-top: 2vh;
+}
+
+.foto1,
+.foto2,
+.foto3,
+.foto4,
+.foto5,
+.foto6,
+.foto7,
+.foto8 {
+  max-width: 100%;
+  border-radius: 8px;
+  height: auto;
+  filter: brightness(85%);
+  display: none;
+}
+.arrow {
+  width: 4%;
+  height: auto;
+  position: absolute;
+  fill: #ffffff;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+.back {
+  left: 1.5%;
+  cursor: pointer;
+}
+.forward {
+  right: 1.5%;
+  cursor: pointer;
+}
+
+/*van hier moet het gecontroleerdt en aangepast*/
+
+.logoFooter {
+  margin-left: 48%;
+  margin-bottom: 3vh;
+  width: 40px;
+}
+footer {
+  background-color: #119822;
+  margin-top: 5vh;
+}
+.logoFooter img {
+  width: 40px;
+}
+
+footer p {
+  color: white;
+}
+.hr-footer{
+  margin: 2vh 0;
+}
+/*to hier*/
+.team-sec {
+  text-align: center;
+}
+
+.team-foto {
+  width: 45%;
+  height: auto;
+  margin-top: 4vh;
+  margin-bottom: 2vh;
+  border-radius: 10px;
+}
+.overOns {
+  width: 75vw;
+  margin-left: 16vw;
+  font-size: 1.2rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  text-align: left;
+}
+.menu-btn {
+  background-color: #119822;
+  border-radius: 0;
+  font-size: 1rem;
+  color: #ffffff;
+  margin-top: 4vh;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.slogan, .slogan2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+  color: #f1f1f1;
+  font-family: "Playfair Display", sans-serif;
+}
+
+.slogan .big {
+  font-size: clamp(1.4rem, 6vw, 2.5rem);
+}
+.slogan2 .big {
+  font-size: clamp(1.4rem, 6vw, 2.5rem);
+}
+
+.slogan .small {
+  font-size: clamp(0.9rem, 3.5vw, 1.4rem);
+}
+.slogan .edited {
+  font-size: clamp(1.2rem, 5vw, 2rem);
+}
+.slogan2 .small {
+  font-size: clamp(0.9rem, 3.5vw, 1.4rem);
+}
+.slogan2 .edited {
+  font-size: clamp(1.2rem, 5vw, 2rem);
+}
+:root[data-mode="dark"] {
+  --bgColor: #1e1b18;
+  --bgSecond: #0c0706;
+  --accent: #f1ece9;
+  --bgThird: #e5e0df;
+  --textColor: #f2ece7;
 }
 
 :root[data-mode="light"] {
-    --bgColor: #F5F3E7;
-    --bgSecond: #c0392b;
-    --accent: #e5e0db;
-    --bgThird: #f0e5e3;
-    --textColor: #2c2c2c;
+  --bgColor: #f5f3e7;
+  --bgSecond: #c0392b;
+  --accent: #e5e0db;
+  --bgThird: #f0e5e3;
+  --textColor: #2c2c2c;
 }
-
-html {
-    background-color: var(--bgColor);
-    color: var(--textColor);
-}
-
-
-
 
 main h1 {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 main form {
-    padding: 30px;
-    justify-content: center;
-    margin-left: 70px;
+  padding: 30px;
+  justify-content: center;
+  margin-left: 70px;
 }
 
 main input {
-    display: flex;
-    align-items: center;
-    width: 100%;
-}
-
-hr {
-    border: none;
-    height: 2px;
-    background-color: #1B8728;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 
 h1,
 header span {
-    font-family: 'playfair display', sans-serif;
-    font-style: italic;
-    font-weight: 600;
+  font-family: "playfair display", sans-serif;
+  font-style: italic;
+  font-weight: 600;
 }
-
-.header {
-    background-color: #119822;
-}
-
-nav ul li a {
-    display: none;
-    text-decoration: none;
-    font-size: 2rem;
-    background-color: #31440c;
-    color: yellowgreen;
-    border: 1vw solid #9acd32;
-    width: 38vw;
-    height: 8vh;
-    margin-top: 1vh;
-    justify-content: center;
-    align-items: center;
-}
-
-li {
-    margin-bottom: 5px;
-}
-
-.logoFooter {
-    margin-left: 45%;
-    width: 40px;
-}
-
-.menu {
-    list-style: none;
-}
-
-.reserveer-nummer {
-    background-color: #119822;
-    color: #f1f1f1;
-    font-size: 1rem;
-    padding: 5px;
-    text-align: center;
-}
-
-.reserveer {
-    font-family: 'playfair display', sans-serif;
-    font-style: italic;
-    font-weight: 600;
-}
-
 .material-icons,
 .material-symbols-outlined {
-    color: #f1f1f1;
+  color: #f1f1f1;
 }
 
 .icons-logo {
-    display: flex;
-    align-items: center;
-    margin-right: 55px;
+  display: flex;
+  align-items: center;
+  margin-right: 55px;
 }
 
 .icons {
-    margin-left: auto;
-    display: flex;
-    gap: 10px;
+  margin-left: auto;
+  display: flex;
+  gap: 15px;
 }
+
 
 
 .socialLogo img {
-    width: 20px;
-
-
+  width: 20px;
 }
 
 .socialLogo {
-    text-align: center;
-    filter: invert();
-
+  text-align: center;
+  filter: invert();
 }
-
 .socialLogo p {
-    filter: invert();
+  margin-bottom: 10px;
+  filter: invert();
+  font-size: large;
 }
 
 .tijdDatum {
-    display: flex;
-    width: 50%;
-    gap: 10px;
+  display: flex;
+  width: 50%;
+  gap: 10px;
 }
 
 .tijdDatum input {
-    width: 40%;
+  width: 40%;
 }
 
 .info-sectie {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 30px;
-    width: 100%;
-    max-width: 800px;
-    margin: 40px auto;
-
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  width: 100%;
+  max-width: 800px;
+  margin: 40px auto;
 }
 
 .openingstijden,
 .locatie {
-    background-color: white;
-    padding: 20px;
-    border-radius: 12px;
-
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
 }
 
 .openingstijden h2,
 .locatie h2 {
-    margin-bottom: 15px;
-    font-family: "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap";
-
+  margin-bottom: 15px;
+  font-family: "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap";
 }
 
 .verzenden {
-    color: white;
-    border: none;
-    padding: 6px 12px;
-    cursor: pointer;
-    text-align: center;
-
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  text-align: center;
 }
 
 .input1 {
-    color: #f1f1f1;
-    background-color: #119822;
-    border: none;
-    height: 30px;
-
-}
-
-footer {
-    background-color: #119822;
+  color: #f1f1f1;
+  background-color: #119822;
+  border: none;
+  height: 30px;
 }
 
 .foto img {
-    width: 100%;
-    border-radius: 10px;
-    margin-top: 10px;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
 }
 
 
 footer p {
-    color: white;
+  color: white;
+  margin-left: 5px;
 }
 
-/* tellie*/
-@media(max-width:576px) {
-    .logoFooter img {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 40px;
+
+.container {
+    max-width: 98vw;  
+    margin: auto;
+    padding: 15px;
+}
+
+.meal {
+    background: #FAF9F6;
+    border-radius: 18px;
+    padding: 16px;
+    margin-bottom: 20px;
+}
+
+.meal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.meal-title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.price {
+    font-size: 16px;
+}
+
+
+.meal-desc {
+    font-size: 14px;
+    color: #333;
+    margin: 10px 0 15px;
+    line-height: 1.4;
+}
+
+.meal img {
+    width: 100%;
+    height: auto;
+    border-radius: 14px;
+    display: block;
+}
+.foto5{
+    display: none;
+}
+.big-container{
+   display: grid;
+   grid-template-columns: 1fr; 
+   gap: 5px;
+}
+
+.gerechten-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.4rem;
+  font-family: "playfair display", sans-serif;
+}
+
+
+
+/*telephone*/
+@media (max-width: 576px) {
+  .logo-img {
+    max-width: 10%;
+  }
+  .arrow {
+    width: 5%;
+  }
+  .foto img {
+    display: none;
+  }
+
+  .logo-img {
+    width: 50px;
+    height: auto;
+    margin: 10px;
+  }
+
+  .info-sectie {
+    flex-direction: column;
+    padding: 10px;
+    width: 80%;
+  }
+
+  .openingstijden,
+  .locatie {
+    width: 100%;
+  }
+ .slogan2{
+  display: none;
+ }
+}
+/*tablet*/
+@media (min-width: 576px) and (max-width: 991px) {
+  .logo-img {
+    width: 60px;
+    height: auto;
+    margin: 10px;
+  }
+
+  .foto img {
+    display: none;
+  }
+
+  .info-sectie {
+    flex-direction: column;
+    padding: 10px;
+    width: 80%;
+  }
+
+  .logoFooter img {
+    width: 60px;
+  }
+  .logoFooter{
+    margin-left: 45.5%;
+  }
+  .overOns {
+    font-size: 1.5rem;
+  }
+  nav ul li a {
+    font-size: 3.5rem;
+  }
+  .close-btn {
+    font-size: 3.5rem;
+  }
+   .foto5{
+    width: 100%;
+    border-radius: 8px;
+    filter: brightness(85%);
+    display: inline;
     }
 
-    .foto img {
-        display: none;
+    .meal {
+        padding: 25px; 
     }
 
-    .logo-img {
-        width: 50px;
-        height: auto;
-        margin: 10px;
+    .meal-title {
+        font-size: 1.5rem; 
     }
 
-    .info-sectie {
-        flex-direction: column;
-        padding: 10px;
-        width: 80%;
+    .price {
+        font-size: 1.5rem;
     }
 
-    .openingstijden,
-    .locatie {
+    .meal-desc {
+        font-size: 1.1rem;
+    }
+   .gerechten-title {
+      margin-top: 25px;
+      margin-bottom: 40px;
+      font-size: 2.8rem;
+}
+}
+/*laptops*/
+@media (min-width: 992px) {
+  .logo-img {
+    width: 80px;
+    height: auto;
+    margin: 10px;
+  }
+
+  .foto img {
+    width: 60%;
+    margin-left: auto;
+  }
+
+  .info-sectie {
+    flex-direction: column;
+    padding: 10px;
+    width: 80%;
+  }
+
+  .logoFooter img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+  }
+
+  .menu {
+    gap: 5px;
+  }
+
+  .info-sectie {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .overOns-container {
+    display: flex;
+    align-items: center;
+    margin-top: 6vh;
+  }
+  .team-foto {
+    width: 35%;
+    height: auto;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+    border-radius: 10px;
+    margin-left: 12vw;
+  }
+  .overOns {
+    width: 35vw;
+    margin-left: 5vw;
+    font-size: 1.8rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    text-align: left;
+  }
+  button {
+    font-size: 1.5rem;
+    margin-top: 8vh;
+    padding: 15px;
+  }
+  .slogan .big {
+    font-size: clamp(2.8rem, 12vw, 5rem);
+  }
+  .slogan .edited {
+    font-size: clamp(2.4rem, 10vw, 4rem);
+  }
+  .slogan2 .big {
+    font-size: clamp(2.8rem, 12vw, 5rem);
+  }
+  .slogan2 .edited {
+    font-size: clamp(2.4rem, 10vw, 4rem);
+  }
+  /*van hier is chat gpt gebruik || Navigatie bar is niet resposive het moet aangepast worden!*/
+  #nav {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    opacity: 1;
+    transform: none;
+    pointer-events: auto;
+  }
+  #nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  nav ul li a {
+    width: auto;
+    height: auto;
+    font-size: clamp(1.5rem, 1.8rem, 2rem);
+    margin: 0;
+    padding: 10px 15px;
+    color: #f1f1f1;
+  }
+  .close-btn {
+    display: none;
+  }
+  #hamburger {
+    display: none;
+  }
+  /*tot hier*/
+  #search {
+    font-size: 1.7rem;
+  }
+  .big-container{
+        display: grid;
+        grid-template-columns: 48vw 48vw; 
+        gap: 20px;
+        
+    }
+    .meal-title {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.price {
+    font-size: 1.8rem;
+}
+.meal-desc {
+    font-size: 1.2rem;
+    
+}
+.foto5{
+    width: 100%;
+    border-radius: 8px;
+    filter: brightness(85%);
+    display: inline;
+}
+.gerechten-title {
+      margin-top: 25px;
+      margin-bottom: 40px;
+      font-size: 3.2rem;
+}
+
+ .fotoGallerie img {
         width: 100%;
-    }
-}
-
-
-
-/* tablet*/
-@media(min-width:576px) and (max-width:991px) {
-    .logo-img {
-        width: 60px;
-        height: auto;
-        margin: 10px;
-
-    }
-
-    .foto img {
-        display: none;
-    }
-
-    .info-sectie {
-        flex-direction: column;
-        padding: 10px;
-        width: 80%;
-    }
-
-
-    .logoFooter img {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 60px;
-    }
-
-}
-
-/* laptop*/
-@media(min-width:992px) and (max-width:1500px) {
-    .logo-img {
-        width: 80px;
-        height: auto;
-        margin: 10px;
-    }
-
-    .foto img {
-        width: 60%;
-        margin-left: auto;
-    }
-
-    .info-sectie {
-        flex-direction: column;
-        padding: 10px;
-        width: 80%;
-    }
-
-
-    .logoFooter img {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 60px;
-
-    }
-
-    .menu {
-        gap: 5px;
-    }
-
-    .info-sectie {
-        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
     }
 }

@@ -1,51 +1,6 @@
-<!DOCTYPE html>
-<html lang="nl" data-mode="light">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="author" content="Evra">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <title>Vegan Restaurant</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <script src="../js/index.js" defer></script>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap"
-        rel="stylesheet">
-
-</head>
-
-<body>
-
-    <header class="header">
-        <figure id="lightdark">&#127765;</figure>
-        <h2 class="reserveer-nummer"> <span class="reserveer">Reserveer nu:</span> 020 456 78 92</h2>
-        <hr class="hr-header">
-        <article class="icons-logo">
-            <img class="logo-img" src="../logo_vegan_food_amsterdam.png" alt="Logo-Img">
-            <div class="icons">
-                <span class="material-symbols-outlined">search</span>
-                <span class="material-icons">menu</span>
-            </div>
-
-        </article>
-
-
-    </header>
-
-    <nav class="nav-bar">
-        <ul class="menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Lunch-Diner</a></li>
-            <li><a href="boeken.html">Reserveren</a></li>
-            <li><a href="opening en locatie.html">Openingstijden</a></li>
-            <li><a href="vacature.html">Vacatures</a></li>
-        </ul>
-    </nav>
+<?php
+include "header.php";
+?>
 
     <main class="info-sectie">
 
