@@ -354,21 +354,9 @@ include "header.php";
 </div>
 
 
-    <footer>
-        <div class="logoFooter">
-            <img alt="hello world" src="../logo_vegan_food_amsterdam.png" alt="logo">
-        </div>
-
-        <p>020 456 78 92</p>
-        <p>veganfood@gmail.com</p>
-
-        <hr class="hr-footer">
-
-        <div class="socialLogo">
-            <p>volg ons</p>
-            <img src="../facebookk.png" alt="facebook">
-            <img src="../instagram-removebg-preview.png" alt="instagram">
-        </div>
-    </footer>
+    <?php
+   include "footer.php"
+   
+   ?>
 </body>
 </html>

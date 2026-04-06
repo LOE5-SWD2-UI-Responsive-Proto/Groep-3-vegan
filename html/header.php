@@ -11,6 +11,8 @@
     <title>Vegan Restaurant</title>
     <link rel="stylesheet" href="../css/style.css">
     <script src="../js/index.js" defer></script>
+    <script src="../js/openingstijden.js" defer></script>
+    <script src="../js/darkmode.js" defer></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap"
         rel="stylesheet">
