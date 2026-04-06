@@ -228,7 +228,7 @@ include "header.php";
 
         <div class="meal">
             <div class="meal-header">
-                <div class="meal-title">Cappuccinoo (met havermelk)</div>
+                <div class="meal-title">Cappuccino (met havermelk)</div>
                 <div class="price">3,50€</div>
             </div>
             <div class="meal-desc">
