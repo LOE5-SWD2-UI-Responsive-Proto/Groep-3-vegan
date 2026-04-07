@@ -65,10 +65,10 @@
             <input type="text"> <br> <br>
             <p>Datum & Tijd</p> <br>
 
-            <div class="tijdDatum">
+            <article class="tijdDatum">
                 <input type="date" placeholder="Datum"> <br>
                 <input type="time" placeholder="Tijd"> <br> <br>
-            </div>
+            </article>
             <br>
             <div class="verzenden">
                 <input class="input1" type="submit" value="Verzenden"> <br>
